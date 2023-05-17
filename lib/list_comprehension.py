@@ -6,7 +6,7 @@ def return_evens(num_list):
         if num % 2 == 0:
             evens.append(num)
     return evens
-    pass
+
 
 def make_exclamation(sentence_list):
     if not sentence_list:
@@ -17,6 +17,6 @@ def make_exclamation(sentence_list):
         exclamation_list.append(sentence + "!")
     
     return exclamation_list
-    pass
+    
 
     
